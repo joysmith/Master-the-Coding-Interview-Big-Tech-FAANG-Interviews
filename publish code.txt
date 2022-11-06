@@ -1,0 +1,54 @@
+section	video_no	title										Notice
+
+2 		8		two sum brute force							return indices of array 
+3 		21		maximum water container  brute force				replacement updation of value 
+4		27		trapping rainwater - brute force solution				total updation of rain water collected
+5		33		typed out strings - brute force
+6 		40		longest substring without ...- brute force			two pointer technique, 2nd pointer operations on each element 
+
+
+7		49		7 Valid-Palindrome-compare-against-reverse			store reverse string using 1 pointer; reverse loop
+7 		49		Valid Palindrome - 2 pointers from outside
+7 		49		Valid Palindrome - 2 pointers from center
+7		52		Almost palindrome solution
+
+8		56		reverse a linked list
+9 		59		m, n reversal
+11 		65		cycle detection - with Set
+11 		67		cycle detection - Flyod's tortoise and hare
+
+STACK & QUEUE: When we care about order of operation or order we process data
+12 		70		Valid Parenthesis			
+13 		75		remove minimum parentheses
+
+					
+23		124		Matrix traversal - DFS
+23 		127		Matrix traversal - BFS
+
+24		132	 	Number of Islands - BFS
+
+25 		137	 	Rotting Oranges
+
+27 		144 		Adjacency-List-BFS
+27 		144		Adjacency-Matrix-BFS
+27 		146		Adjacency List - DFS
+27 		146		Adjacency Matrix - DFS
+
+29  		154		Course schedule - naive BFS
+
+38		232		DataStructure: Array Implementation					
+
+
+
+
+
+41 		all		Stack,Queue									People(fifo)	plate(lifo)		food(random)
+														imagine the easter dinner scenario where people line up in ticket check, pick up plate , and move to choice of food they want
+														two way to built stack and queue- array, linked list
+														queues(linked list because in array there is shifting operation)
+														stack(array or linked list depends on sub problem)
+
+
+
+
+		

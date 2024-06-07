@@ -28,7 +28,32 @@
 
 ### 209. What Is Good Code?<a id='209'></a>
 
+<img src="assets/images/1.png" width="700">
+
+<img src="assets/images/2.png" width="700">
+
+- Find nemo replit [click me](https://replit.com/@aneagoie/findNemo1#main.js)
+
+```js
+//#1 -- For loop in Javascript.
+const nemo = ["nemo"];
+
+function findNemo1(array) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === "nemo") {
+      console.log("Found NEMO!");
+    }
+  }
+}
+
+findNemo1(nemo);
+```
+
 ### 210. Big O and Scalability<a id='210'></a>
+
+<img src="assets/images/3.png" width="700">
+
+- Find nemo replit more [click me](https://replit.com/@aneagoie/findingNemo2)
 
 ### 211. O(n)<a id='211'></a>
 

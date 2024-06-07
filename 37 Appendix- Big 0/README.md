@@ -74,18 +74,29 @@ const everyone = [
 const large = new Array(10).fill("nemo");
 
 function findNemo2(fish) {
+  // timer before the loop
   let t0 = performance.now();
   for (let i = 0; i < fish.length; i++) {
     if (fish[i] === "nemo") {
       console.log("Found NEMO!");
     }
   }
+  // timer after the loop
   let t1 = performance.now();
   console.log("Call to find Nemo took " + (t1 - t0) + " milliseconds.");
 }
 
 findNemo2(everyone);
 ```
+
+Note-
+
+- As our input grew our function findnemo() became slower and slower
+- We write code on our laptop to run on different computer like android, server, browser etc
+- Big O notation is the language we use for talking about how long an algorithm takes to run
+- when we talk about big O and scalability of code, we simply mean when we grow bigger and bigger with our input, how much does the algorithm slow down? The less it slows down or the slower it slows down, the better it is.
+- Instead of using performance now and using time to measure the efficiency of our function, we can just calculate how many operations a computer has to perform because each operation takes time on a computer.
+- So big O allows us and concerns us with how many steps it takes in a function.
 
 ### 211. O(n)<a id='211'></a>
 
